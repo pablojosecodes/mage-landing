@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("../fonts/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter-Semi";
+  src: url("../fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: "Inter-Thin";
+  src: url("../fonts/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.otf");
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+
+
+
+@font-face {
+  font-family: 'MonaSans';
+  src:
+    url('../fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSans-Regular.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 10000% 1000%;
+}
+
+
+@font-face {
+  font-family: 'MonaSansBold';
+  src:
+    url('../fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSans-Regular.woff2') format('woff2-variations');
+  font-weight: 200 1400;
+  font-stretch: 75% 125%;
+}
+
+
+@font-face {
+  font-family: 'MonaSansExpanded';
+  src:
+    url('../fonts/MonaSansExpanded-Regular.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSansExpanded-Regular.woff2') format('woff2-variations');
+  font-weight: 1400 1400;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: 'MonaSansExpandedSemi';
+  src:
+    url('../fonts/MonaSansExpanded-SemiBold.woff2') format('woff2 supports variations'),
+    url('../fonts/MonaSansExpanded-SemiBold.woff2') format('woff2-variations');
+  font-weight: 1400 1400;
+  font-stretch: 75% 125%;
+}
+
+
+/* MonaSansExpandedSemi */
+
+
+/* @font-face {
+  font-family: "MonaSans";
+  src: url("../fonts/MonaSans-Regular.ttf");
+} */
+
+
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings: 'case' 1, 'rlig' 1, 'calt' 0;
+}
+
+html,
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  @apply text-white bg-zinc-800 antialiased;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.height-screen-helper {
+  height: calc(100vh - 80px);
+}
