@@ -1,5 +1,7 @@
 # Mage Landing Page
 
+Inspiration from https://github.com/nextui-org/nextui 
+
 ## Navbar (sections)
 - Home
 - Docs
